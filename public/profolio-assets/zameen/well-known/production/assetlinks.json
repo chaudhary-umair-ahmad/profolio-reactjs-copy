@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zameen.zameenapp",
+      "sha256_cert_fingerprints": [
+        "FA:96:99:D1:E6:B4:B0:8F:BB:B1:25:A4:C3:2E:06:F0:2B:D2:78:3F:2E:B3:6B:BF:8A:B3:71:90:1F:19:6F:73"
+      ]
+    }
+  }
+]

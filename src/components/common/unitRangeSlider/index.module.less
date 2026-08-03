@@ -1,0 +1,23 @@
+.rangeSlider {
+  span {
+    transform: translateX(0) !important;
+    &:last-child {
+      white-space: nowrap;
+      inset-inline-start: auto !important;
+      inset-inline-end: 0;
+    }
+  }
+  :global(.ant-slider-mark) {
+    top: 21px;
+  }
+}
+
+.inputSpacer {
+  width: 100%;
+  > div {
+    &:first-child,
+    &:last-child {
+      flex-grow: 1;
+    }
+  }
+}

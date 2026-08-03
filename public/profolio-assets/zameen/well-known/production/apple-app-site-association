@@ -1,0 +1,394 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "26FC8VA3G3.com.zameen.zameenapp"
+        ],
+        "components": [
+          {
+            "/": "/Homes/*"
+          },
+          {
+            "/": "/Houses_Property/*"
+          },
+          {
+            "/": "/Flats_Apartments/*"
+          },
+          {
+            "/": "/Upper_Portions/*"
+          },
+          {
+            "/": "/Lower_Portions/*"
+          },
+          {
+            "/": "/Farm_Houses/*"
+          },
+          {
+            "/": "/Penthouse/*"
+          },
+          {
+            "/": "/Rooms/*"
+          },
+          {
+            "/": "/Plots/*"
+          },
+          {
+            "/": "/Residential_Plots/*"
+          },
+          {
+            "/": "/Commercial_Plots/*"
+          },
+          {
+            "/": "/Agricultural_Land/*"
+          },
+          {
+            "/": "/Industrial_Land/*"
+          },
+          {
+            "/": "/Plot_Files/*"
+          },
+          {
+            "/": "/Plot_Forms/*"
+          },
+          {
+            "/": "/Commercial/*"
+          },
+          {
+            "/": "/Offices/*"
+          },
+          {
+            "/": "/Retail_Shops/*"
+          },
+          {
+            "/": "/Warehouses/*"
+          },
+          {
+            "/": "/Factories/*"
+          },
+          {
+            "/": "/Buildings/*"
+          },
+          {
+            "/": "/Other_Commercial_Properties/*"
+          },
+          {
+            "/": "/Rentals/*"
+          },
+          {
+            "/": "/Rentals_Houses_Property/*"
+          },
+          {
+            "/": "/Rentals_Flats_Apartments/*"
+          },
+          {
+            "/": "/Rentals_Upper_Portions/*"
+          },
+          {
+            "/": "/Rentals_Lower_Portions/*"
+          },
+          {
+            "/": "/Rentals_Farm_Houses/*"
+          },
+          {
+            "/": "/Rentals_Rooms/*"
+          },
+          {
+            "/": "/Rentals_Penthouse/*"
+          },
+          {
+            "/": "/Rentals_Plots/*"
+          },
+          {
+            "/": "/Rentals_Residential_Plots/*"
+          },
+          {
+            "/": "/Rentals_Commercial_Plots/*"
+          },
+          {
+            "/": "/Rentals_Agricultural_Land/*"
+          },
+          {
+            "/": "/Rentals_Industrial_Land/*"
+          },
+          {
+            "/": "/Rentals_Plot_Files/*"
+          },
+          {
+            "/": "/Rentals_Plot_Forms/*"
+          },
+          {
+            "/": "/Rentals_Commercial/*"
+          },
+          {
+            "/": "/Rentals_Offices/*"
+          },
+          {
+            "/": "/Rentals_Retail_Shops/*"
+          },
+          {
+            "/": "/Rentals_Warehouses/*"
+          },
+          {
+            "/": "/Rentals_Factories/*"
+          },
+          {
+            "/": "/Rentals_Buildings/*"
+          },
+          {
+            "/": "/Rentals_Other_Commercial_Properties/*"
+          },
+          {
+            "/": "/ur/Homes/*"
+          },
+          {
+            "/": "/ur/Houses_Property/*"
+          },
+          {
+            "/": "/ur/Flats_Apartments/*"
+          },
+          {
+            "/": "/ur/Upper_Portions/*"
+          },
+          {
+            "/": "/ur/Lower_Portions/*"
+          },
+          {
+            "/": "/ur/Farm_Houses/*"
+          },
+          {
+            "/": "/ur/Penthouse/*"
+          },
+          {
+            "/": "/ur/Rooms/*"
+          },
+          {
+            "/": "/ur/Plots/*"
+          },
+          {
+            "/": "/ur/Residential_Plots/*"
+          },
+          {
+            "/": "/ur/Commercial_Plots/*"
+          },
+          {
+            "/": "/ur/Agricultural_Land/*"
+          },
+          {
+            "/": "/ur/Industrial_Land/*"
+          },
+          {
+            "/": "/ur/Plot_Files/*"
+          },
+          {
+            "/": "/ur/Plot_Forms/*"
+          },
+          {
+            "/": "/ur/Commercial/*"
+          },
+          {
+            "/": "/ur/Offices/*"
+          },
+          {
+            "/": "/ur/Retail_Shops/*"
+          },
+          {
+            "/": "/ur/Warehouses/*"
+          },
+          {
+            "/": "/ur/Factories/*"
+          },
+          {
+            "/": "/ur/Buildings/*"
+          },
+          {
+            "/": "/ur/Other_Commercial_Properties/*"
+          },
+          {
+            "/": "/ur/Rentals/*"
+          },
+          {
+            "/": "/ur/Rentals_Houses_Property/*"
+          },
+          {
+            "/": "/ur/Rentals_Flats_Apartments/*"
+          },
+          {
+            "/": "/ur/Rentals_Upper_Portions/*"
+          },
+          {
+            "/": "/ur/Rentals_Lower_Portions/*"
+          },
+          {
+            "/": "/ur/Rentals_Farm_Houses/*"
+          },
+          {
+            "/": "/ur/Rentals_Rooms/*"
+          },
+          {
+            "/": "/ur/Rentals_Penthouse/*"
+          },
+          {
+            "/": "/ur/Rentals_Plots/*"
+          },
+          {
+            "/": "/ur/Rentals_Residential_Plots/*"
+          },
+          {
+            "/": "/ur/Rentals_Commercial_Plots/*"
+          },
+          {
+            "/": "/ur/Rentals_Agricultural_Land/*"
+          },
+          {
+            "/": "/ur/Rentals_Industrial_Land/*"
+          },
+          {
+            "/": "/ur/Rentals_Plot_Files/*"
+          },
+          {
+            "/": "/ur/Rentals_Plot_Forms/*"
+          },
+          {
+            "/": "/ur/Rentals_Commercial/*"
+          },
+          {
+            "/": "/ur/Rentals_Offices/*"
+          },
+          {
+            "/": "/ur/Rentals_Retail_Shops/*"
+          },
+          {
+            "/": "/ur/Rentals_Warehouses/*"
+          },
+          {
+            "/": "/ur/Rentals_Factories/*"
+          },
+          {
+            "/": "/ur/Rentals_Buildings/*"
+          },
+          {
+            "/": "/ur/Rentals_Other_Commercial_Properties/*"
+          },
+          {
+            "/": "/rentals.html"
+          },
+          {
+            "/": "/commercial.html"
+          },
+          {
+            "/": "/plots.html"
+          },
+          {
+            "/": "/add_property_single.html"
+          },
+          {
+            "/": "/favorite-properties.html"
+          },
+          {
+            "/": "/ur/favorite-properties.html"
+          },
+          {
+            "/": "/ur/rentals.html"
+          },
+          {
+            "/": "/ur/commercial.html"
+          },
+          {
+            "/": "/ur/plots.html"
+          },
+          {
+            "/": "/ur/add_property_single.html"
+          },
+          {
+            "/": "/s/*"
+          },
+          {
+            "/": "/Property/*"
+          },
+          {
+            "/": "/ur/Property/*"
+          },
+          {
+            "/": "/blog/"
+          },
+          {
+            "/": "/blog/*"
+          },
+          {
+            "/": "/news/"
+          },
+          {
+            "/": "/news/*"
+          },
+          {
+            "/": "/new-projects/"
+          },
+          {
+            "/": "/new-projects/search.html"
+          },
+          {
+            "/": "/new-projects/*"
+          },
+          {
+            "/": "/ur/new-projects/"
+          },
+          {
+            "/": "/ur/new-projects/search.html"
+          },
+          {
+            "/": "/ur/new-projects/*"
+          },
+          {
+            "/": "/international/new-projects/"
+          },
+          {
+            "/": "/international/new-projects/search.html"
+          },
+          {
+            "/": "/international/new-projects/*"
+          },
+          {
+            "/": "/ur/international/new-projects/"
+          },
+          {
+            "/": "/ur/international/new-projects/search.html"
+          },
+          {
+            "/": "/ur/international/new-projects/*"
+          },
+          {
+            "/": "/plotfinder/"
+          },
+          {
+            "/": "/plotfinder/*"
+          },
+          {
+            "/": "/ur/plotfinder/"
+          },
+          {
+            "/": "/ur/plotfinder/*"
+          },
+          {
+            "/": "/registration.html"
+          },
+          {
+            "/": "/contactus.html"
+          },
+          {
+            "/": "/about/aboutus.html"
+          },
+          {
+            "/": "/terms.html"
+          },
+          {
+            "/": "/ur/"
+          },
+          {
+            "/": "/"
+          }
+        ]
+      }
+    ]
+  }
+}

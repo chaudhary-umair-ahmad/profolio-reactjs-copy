@@ -1,0 +1,277 @@
+:root {
+  --primary-color: ${tenantTheme['primary-light-4']};
+  -moz-osx-font-smoothing: grayscale;
+  --primary-light: @primary-light;
+}
+
+.spin {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.flex,
+.d-flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-col,
+.flex-column {
+  flex-direction: column;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-grid .flex-grid-child {
+  padding: 0 12px;
+}
+
+.align-center-v {
+  display: flex !important;
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-end {
+  align-items: end;
+}
+.align-items-start {
+  align-items: start;
+}
+
+.line-height-0 {
+  line-height: 0;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: @primary-color;
+}
+.text-secondary {
+  color: @secondary-color;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 32px);
+  grid-template-columns: var(--template, minmax(0, 1fr));
+  grid-auto-rows: minmax(0, max-content);
+}
+
+.span-all {
+  grid-column: e('1 / -1');
+}
+
+.y-center {
+  align-self: center;
+}
+
+.x-center {
+  justify-self: center;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500,
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-600,
+.semiBold {
+  font-weight: 600;
+}
+
+.fw-700,
+.bold {
+  font-weight: 700;
+}
+
+.fw-800,
+.heavy {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 800;
+}
+.rtl{
+  direction: rtl;
+}
+
+
+[disabled] {
+  opacity: 0.54;
+  pointer-events: none;
+}
+
+@numList: 0 2 4 8 12 16 20 24 32 40 48 54;
+
+each(@numList, {
+  .mb-@{value} {
+    margin-block-end: if(@value = 0, @value, @value * 1px) !important;
+  }
+  .mt-@{value} {
+    margin-top: if(@value = 0, @value, @value * 1px) !important;
+  }
+})
+
+each(@numList, {
+  .my-@{value} {
+    margin-block-start: if(@value = 0, @value, @value * 1px) !important;
+    margin-block-end: if(@value = 0, @value, @value * 1px) !important;
+  }
+})
+
+each(@numList, {
+  .p-@{value} {
+    padding: if(@value = 0, @value, @value * 1px) !important;
+  }
+})
+
+each(@numList, {
+  .px-@{value} {
+    padding-inline: if(@value = 0, @value, @value * 1px) !important;
+  }
+  .py-@{value} {
+    padding-block: if(@value = 0, @value, @value * 1px) !important;
+  }
+});
+@fontSizes: 10 12 13 14 16 18 20 24;
+
+each(@fontSizes, {
+  .fz-@{value},
+  .fs@{value} {
+    font-size: (@value * 1px);
+  }
+});
+/* theme spacing classes */
+@themeSpacers: 0 20 25 30;
+each(@themeSpacers, {
+  .mt-@{value} {
+    margin-top: if(@value = 0, @value, @value * 1px) !important;
+  }
+
+  .mb-@{value} {
+    margin-bottom: if(@value = 0, @value, @value * 1px) !important;
+  }
+
+  .pb-@{value} {
+    padding-bottom: if(@value = 0, @value, @value * 1px) !important;
+  }
+})
+  .m-0 {
+  margin: 0 !important;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.scroll-y {
+  --box-height: 100%;
+
+  max-height: var(--box-height);
+  overflow-y: auto;
+}
+
+.scroll-x {
+  --box-width: 100%;
+
+  max-width: var(--box-width);
+  overflow-x: auto;
+}
+
+.scroll-y,
+.scroll-x {
+  --border-radius: 4px;
+
+  position: relative;
+  scrollbar-width: var(--scrollbar-width, thin);
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #ededed;
+    border-radius: var(--border-radius);
+    outline: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: var(--border-radius);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #c0c0c0;
+    border-radius: var(--border-radius);
+  }
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.w-100 {
+  inline-size: 100%;
+}
+
+.lhn {
+  line-height: normal;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.upcase {
+  text-transform: uppercase;
+}
+
+.tru-broker-table {
+  .ant-table {
+    overflow-y: auto;
+    height: 400px;
+    @media (max-width: 768px) {
+      border: 1px solid;
+    }
+  }
+}

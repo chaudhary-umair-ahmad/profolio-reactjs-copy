@@ -1,0 +1,2600 @@
+{
+  "omitKeyNames": [
+    "furnished"
+  ],
+  "fieldOverrides": {
+    "national_address": {
+      "id": 4213,
+      "place_holder_l1": null,
+      "display": true,
+      "display_order": 10,
+      "dynamic_section": {
+        "display_order": "20"
+      }
+    },
+    "price": {
+      "label": "Price (Per Night)",
+      "label_l1": "السعر (لكل ليلة)",
+      "display_order": 10,
+      "is_editable": true,
+      "dynamic_section": {
+        "id": 21,
+        "name": "Price & Features",
+        "name_l1": "السعر والميزات",
+        "slug": "price-features",
+        "display_order": 4,
+        "secondary_display_order": 35
+      }
+    },
+    "location_id": {
+      "is_editable": true
+    },
+    "title": {
+      "dynamic_section": {
+        "id": 21,
+        "name": "Price & Features",
+        "name_l1": "السعر والميزات",
+        "slug": "price-features",
+        "display_order": 4,
+        "secondary_display_order": 35
+      }
+    },
+    "title_l1": {
+      "dynamic_section": {
+        "id": 21,
+        "name": "Price & Features",
+        "name_l1": "السعر والميزات",
+        "slug": "price-features",
+        "display_order": 4,
+        "secondary_display_order": 35
+      }
+    },
+    "area": {
+      "id": 4182,
+      "place_holder_l1": null,
+      "is_required": true,
+      "display": true,
+      "is_editable": true,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "description": {
+      "dynamic_section": {
+        "id": 21,
+        "name": "Price & Features",
+        "name_l1": "السعر والميزات",
+        "slug": "price-features",
+        "display_order": 4,
+        "secondary_display_order": 35
+      }
+    },
+    "description_l1": {
+      "dynamic_section": {
+        "id": 21,
+        "name": "Price & Features",
+        "name_l1": "السعر والميزات",
+        "slug": "price-features",
+        "display_order": 4,
+        "secondary_display_order": 35
+      }
+    },
+    "beds": {
+      "id": 4183,
+      "is_required": null,
+      "dynamic_field_options": [
+        {
+          "id": 8568,
+          "label": "Studio",
+          "label_l1": "Studio",
+          "value": "Studio",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "studio",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8569,
+          "label": "1",
+          "label_l1": "1",
+          "value": "1",
+          "value_l1": "1",
+          "format_type": null,
+          "slug": "1",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8570,
+          "label": "2",
+          "label_l1": "2",
+          "value": "2",
+          "value_l1": "2",
+          "format_type": null,
+          "slug": "2",
+          "display_order": 4,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8571,
+          "label": "3",
+          "label_l1": "3",
+          "value": "3",
+          "value_l1": "3",
+          "format_type": null,
+          "slug": "3",
+          "display_order": 5,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8572,
+          "label": "4",
+          "label_l1": "4",
+          "value": "4",
+          "value_l1": "4",
+          "format_type": null,
+          "slug": "4",
+          "display_order": 6,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8573,
+          "label": "5",
+          "label_l1": "5",
+          "value": "5",
+          "value_l1": "5",
+          "format_type": null,
+          "slug": "5",
+          "display_order": 7,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8574,
+          "label": "6",
+          "label_l1": "6",
+          "value": "6",
+          "value_l1": "6",
+          "format_type": null,
+          "slug": "6",
+          "display_order": 8,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8575,
+          "label": "7",
+          "label_l1": "7",
+          "value": "7",
+          "value_l1": "7",
+          "format_type": null,
+          "slug": "7",
+          "display_order": 9,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8576,
+          "label": "8",
+          "label_l1": "8",
+          "value": "8",
+          "value_l1": "8",
+          "format_type": null,
+          "slug": "8",
+          "display_order": 10,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8577,
+          "label": "9",
+          "label_l1": "9",
+          "value": "9",
+          "value_l1": "9",
+          "format_type": null,
+          "slug": "9",
+          "display_order": 11,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8578,
+          "label": "10",
+          "label_l1": "10",
+          "value": "10",
+          "value_l1": "10",
+          "format_type": null,
+          "slug": "10",
+          "display_order": 12,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8579,
+          "label": "10+",
+          "label_l1": "10+",
+          "value": "10+",
+          "value_l1": "10+",
+          "format_type": null,
+          "slug": "10-plus",
+          "display_order": 13,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "id": 1,
+        "name": "Property Information",
+        "slug": "property-information",
+        "display_order": "1",
+        "secondary_display_order": 1
+      }
+    },
+    "baths": {
+      "id": 4184,
+      "is_required": null,
+      "dynamic_field_options": [
+        {
+          "id": 8580,
+          "label": "0",
+          "label_l1": "0",
+          "value": "0",
+          "value_l1": "0",
+          "format_type": null,
+          "slug": "0",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8581,
+          "label": "1",
+          "label_l1": "1",
+          "value": "1",
+          "value_l1": "1",
+          "format_type": null,
+          "slug": "1",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8582,
+          "label": "2",
+          "label_l1": "2",
+          "value": "2",
+          "value_l1": "2",
+          "format_type": null,
+          "slug": "2",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8583,
+          "label": "3",
+          "label_l1": "3",
+          "value": "3",
+          "value_l1": "3",
+          "format_type": null,
+          "slug": "3",
+          "display_order": 4,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8584,
+          "label": "4",
+          "label_l1": "4",
+          "value": "4",
+          "value_l1": "4",
+          "format_type": null,
+          "slug": "4",
+          "display_order": 5,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8585,
+          "label": "5",
+          "label_l1": "5",
+          "value": "5",
+          "value_l1": "5",
+          "format_type": null,
+          "slug": "5",
+          "display_order": 6,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8586,
+          "label": "6",
+          "label_l1": "6",
+          "value": "6",
+          "value_l1": "6",
+          "format_type": null,
+          "slug": "6",
+          "display_order": 7,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8587,
+          "label": "7",
+          "label_l1": "7",
+          "value": "7",
+          "value_l1": "7",
+          "format_type": null,
+          "slug": "7",
+          "display_order": 8,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8588,
+          "label": "8",
+          "label_l1": "8",
+          "value": "8",
+          "value_l1": "8",
+          "format_type": null,
+          "slug": "8",
+          "display_order": 9,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8589,
+          "label": "9",
+          "label_l1": "9",
+          "value": "9",
+          "value_l1": "9",
+          "format_type": null,
+          "slug": "9",
+          "display_order": 10,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8590,
+          "label": "10",
+          "label_l1": "10",
+          "value": "10",
+          "value_l1": "10",
+          "format_type": null,
+          "slug": "10",
+          "display_order": 11,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8591,
+          "label": "10+",
+          "label_l1": "10+",
+          "value": "10+",
+          "value_l1": "10+",
+          "format_type": null,
+          "slug": "10-plus",
+          "display_order": 12,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "id": 1,
+        "name": "Property Information",
+        "slug": "property-information",
+        "display_order": "1",
+        "secondary_display_order": 1
+      }
+    },
+    "plot_no": {
+      "id": 4185,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "area_unit": {
+      "id": 4186,
+      "is_required": true,
+      "dynamic_field_options": [
+        {
+          "id": 8592,
+          "label": "Square Meters",
+          "label_l1": "متر مربع",
+          "value": "Square Meters",
+          "value_l1": "متر مربع",
+          "format_type": null,
+          "slug": "square-meters",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "area_unit_value": {
+      "id": 4187,
+      "place_holder_l1": null,
+      "is_required": true,
+      "display": true,
+      "is_editable": true,
+      "dynamic_section": {
+        "display_order": "40"
+      }
+    },
+    "possession_available": {
+      "id": 4188,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_installment": {
+      "id": 4189,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "advance_amount": {
+      "id": 4190,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "remaining_installments": {
+      "id": 4191,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "monthly_amount": {
+      "id": 4192,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "rental_price": {
+      "id": 4193,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "plotfinder_id": {
+      "id": 4194,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "lat_long_source": {
+      "id": 4195,
+      "dynamic_field_options": [
+        {
+          "id": 8593,
+          "label": "Plotfinder",
+          "label_l1": "الباحث عن الأراضي",
+          "value": "Plotfinder",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "plotfinder",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8594,
+          "label": "Map",
+          "label_l1": "الخريطة",
+          "value": "Map",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "map",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8595,
+          "label": "Location",
+          "label_l1": "الموقع",
+          "value": "Location",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "location",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "20"
+      }
+    },
+    "is_verified": {
+      "id": 4196,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_photo_verified": {
+      "id": 4197,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_video_verified": {
+      "id": 4198,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_bi_approved": {
+      "id": 4199,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "rega_details": {
+      "id": 4200,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "age": {
+      "id": 4201,
+      "dynamic_field_options": [
+        {
+          "id": 8596,
+          "label": "New",
+          "label_l1": "جديد",
+          "value": "New",
+          "value_l1": "جديد",
+          "format_type": null,
+          "slug": "new",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8597,
+          "label": "Less than one year",
+          "label_l1": "اقل من سنة",
+          "value": "Less than one year",
+          "value_l1": "اقل من سنة",
+          "format_type": null,
+          "slug": "less-than-one-year",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8598,
+          "label": "1 year",
+          "label_l1": "سنة",
+          "value": "1 year",
+          "value_l1": "سنة",
+          "format_type": null,
+          "slug": "1-year",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8599,
+          "label": "2 years",
+          "label_l1": "سنتين",
+          "value": "2 years",
+          "value_l1": "سنتين",
+          "format_type": null,
+          "slug": "2-years",
+          "display_order": 4,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8600,
+          "label": "3 years",
+          "label_l1": "ثلاث سنوات",
+          "value": "3 years",
+          "value_l1": "ثلاث سنوات",
+          "format_type": null,
+          "slug": "3-years",
+          "display_order": 5,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8601,
+          "label": "4 years",
+          "label_l1": "اربع سنوات",
+          "value": "4 years",
+          "value_l1": "اربع سنوات",
+          "format_type": null,
+          "slug": "4-years",
+          "display_order": 6,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8602,
+          "label": "5 years",
+          "label_l1": "خمس سنوات",
+          "value": "5 years",
+          "value_l1": "خمس سنوات",
+          "format_type": null,
+          "slug": "5-years",
+          "display_order": 7,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8603,
+          "label": "6 years",
+          "label_l1": "ست سنوات",
+          "value": "6 years",
+          "value_l1": "ست سنوات",
+          "format_type": null,
+          "slug": "6-years",
+          "display_order": 8,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8604,
+          "label": "7 years",
+          "label_l1": "سبع سنوات",
+          "value": "7 years",
+          "value_l1": "سبع سنوات",
+          "format_type": null,
+          "slug": "7-years",
+          "display_order": 9,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8605,
+          "label": "8 years",
+          "label_l1": "ثمان سنوات",
+          "value": "8 years",
+          "value_l1": "ثمان سنوات",
+          "format_type": null,
+          "slug": "8-years",
+          "display_order": 10,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8606,
+          "label": "9 years",
+          "label_l1": "تسع سنوات",
+          "value": "9 years",
+          "value_l1": "تسع سنوات",
+          "format_type": null,
+          "slug": "9-years",
+          "display_order": 11,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8607,
+          "label": "10 years",
+          "label_l1": "عشر سنوات",
+          "value": "10 years",
+          "value_l1": "عشر سنوات",
+          "format_type": null,
+          "slug": "10-years",
+          "display_order": 12,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8608,
+          "label": "10+ years",
+          "label_l1": "اكثر من عشر سنوات",
+          "value": "10+ years",
+          "value_l1": "اكثر من عشر سنوات",
+          "format_type": null,
+          "slug": "10-plus-years",
+          "display_order": 12,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "face": {
+      "id": 4202,
+      "dynamic_field_options": [
+        {
+          "id": 8609,
+          "label": "Oriental",
+          "label_l1": "شرقية",
+          "value": "Oriental",
+          "value_l1": "شرقية",
+          "format_type": null,
+          "slug": "oriental",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8610,
+          "label": "Western",
+          "label_l1": "غربية",
+          "value": "Western",
+          "value_l1": "غربية",
+          "format_type": null,
+          "slug": "western",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8611,
+          "label": "Northern",
+          "label_l1": "شمالية",
+          "value": "Northern",
+          "value_l1": "شمالية",
+          "format_type": null,
+          "slug": "northern",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8612,
+          "label": "Southern",
+          "label_l1": "جنوبية",
+          "value": "Southern",
+          "value_l1": "جنوبية",
+          "format_type": null,
+          "slug": "southern",
+          "display_order": 4,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8613,
+          "label": "Northeast",
+          "label_l1": "شمالية شرقية",
+          "value": "Northeast",
+          "value_l1": "شمالية شرقية",
+          "format_type": null,
+          "slug": "northeast",
+          "display_order": 5,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8614,
+          "label": "Southeasterly",
+          "label_l1": "جنوبية شرقية",
+          "value": "Southeasterly",
+          "value_l1": "جنوبية شرقية",
+          "format_type": null,
+          "slug": "southeasterly",
+          "display_order": 6,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8615,
+          "label": "South Western",
+          "label_l1": "جنوبية غربية",
+          "value": "South Western",
+          "value_l1": "جنوبية غربية",
+          "format_type": null,
+          "slug": "south-western",
+          "display_order": 7,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8616,
+          "label": "North Western",
+          "label_l1": "شمالية غربية",
+          "value": "North Western",
+          "value_l1": "شمالية غربية",
+          "format_type": null,
+          "slug": "north-western",
+          "display_order": 8,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8617,
+          "label": "Three streets",
+          "label_l1": "ثلاثة شوارع",
+          "value": "Three streets",
+          "value_l1": "ثلاثة شوارع",
+          "format_type": null,
+          "slug": "three-streets",
+          "display_order": 9,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8618,
+          "label": "Four streets",
+          "label_l1": "اربعة شوارع",
+          "value": "Four streets",
+          "value_l1": "اربعة شوارع",
+          "format_type": null,
+          "slug": "four-streets",
+          "display_order": 10,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8619,
+          "label": "Eastern",
+          "label_l1": "شرقية",
+          "value": "Eastern",
+          "value_l1": "شرقية",
+          "format_type": null,
+          "slug": "eastern",
+          "display_order": 11,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "ad_attributes": {
+      "id": 4203,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "advertiser_id": {
+      "id": 4205,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "id_type": {
+      "id": 4206,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "deed_number": {
+      "id": 4207,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_posted_on_rega": {
+      "id": 4208,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "license_number": {
+      "id": 4209,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "extension": {
+      "id": 4210,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "is_location_editable": {
+      "id": 4211,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "residence_type": {
+      "id": 4212,
+      "display": false,
+      "dynamic_field_options": [
+        {
+          "id": 8624,
+          "label": "Family",
+          "label_l1": "عائلات",
+          "value": "Family",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "family",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8625,
+          "label": "Open to all",
+          "label_l1": "متاح للجميع",
+          "value": "Open to all",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "open-to-all",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8626,
+          "label": "Singles",
+          "label_l1": "عزاب",
+          "value": "Singles",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "singles",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "id": 1,
+        "name": "Property Information",
+        "slug": "property-information",
+        "display_order": "1",
+        "secondary_display_order": 1
+      }
+    },
+    "booking_end_date": {
+      "id": 4214,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "apply_refresh_by_default": {
+      "id": 4215,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "sale_type": {
+      "id": 4216,
+      "display": false,
+      "is_editable": false,
+      "dynamic_field_options": [
+        {
+          "id": 8627,
+          "label": "Initial sale",
+          "label_l1": "بيع أولي",
+          "value": "Initial sale",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "initial-sale",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8628,
+          "label": "Resale",
+          "label_l1": "إعادة بيع",
+          "value": "Resale",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "resale",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "completion_status": {
+      "id": 4217,
+      "dynamic_field_options": [
+        {
+          "id": 8629,
+          "label": "Ready",
+          "label_l1": "جاهز",
+          "value": "Ready",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "ready",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8630,
+          "label": "Off plan",
+          "label_l1": "على المخطط",
+          "value": "Off plan",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "off-plan",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "meta_data": {
+      "id": 4218,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "dubizzle_migrated": {
+      "id": 4219,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "legal_id": {
+      "id": 4220,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "features": {
+      "id": 4221,
+      "display_order": 11,
+      "secondary_display_order": 11,
+      "dynamic_field_options": [
+        {
+          "id": 8631,
+          "label": "Balcony or Terrace",
+          "label_l1": "شرفة أو تراس",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "balcony-or-terrace",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8632,
+          "label": "Barbeque Area",
+          "label_l1": "مكان مخصص للشواء",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "barbeque-area",
+          "display_order": 20,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8633,
+          "label": "Double Glazed Windows",
+          "label_l1": "نوافذ زجاجية مزدوجة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "double-glazed-windows",
+          "display_order": 40,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8634,
+          "label": "Air Conditioning",
+          "label_l1": "مكيف",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "air-conditioned",
+          "display_order": 60,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8635,
+          "label": "Central Heating",
+          "label_l1": "سخان مركزي",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "central-heating",
+          "display_order": 80,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8636,
+          "label": "Day Care Center",
+          "label_l1": "مركز رعاية أطفال",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "day-care-center",
+          "display_order": 100,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8637,
+          "label": "Electricity Backup",
+          "label_l1": "نظام كهرباء احتياطي للطوارئ",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "electricity-backup",
+          "display_order": 120,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8638,
+          "label": "Waste Disposal",
+          "label_l1": "خدمة التخلص من النفايات",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "waste-disposal",
+          "display_order": 140,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        },
+        {
+          "id": 8639,
+          "label": "First Aid Medical Center",
+          "label_l1": "مركز إسعافات أولية",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "first-aid-medical-center",
+          "display_order": 160,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 13,
+            "name": "Health and Fitness",
+            "slug": "health-and-fitness",
+            "display_order": "5",
+            "secondary_display_order": 5
+          }
+        },
+        {
+          "id": 8640,
+          "label": "Floor Number",
+          "label_l1": "الدور",
+          "value": null,
+          "value_l1": null,
+          "format_type": "number",
+          "slug": "floor",
+          "display_order": 180,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8641,
+          "label": "Elevators in Building",
+          "label_l1": "عدد المصاعد",
+          "value": null,
+          "value_l1": null,
+          "format_type": "number",
+          "slug": "elevators-in-building",
+          "display_order": 200,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8642,
+          "label": "Service Elevators",
+          "label_l1": "مصاعد خدمات",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "service-elevators",
+          "display_order": 220,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8643,
+          "label": "Pets Allowed",
+          "label_l1": "دخول الحيوانات الأليفة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "pet-policy",
+          "display_order": 260,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8644,
+          "label": "Gym or Health Club",
+          "label_l1": "صالة رياضية",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "gym-or-health-club",
+          "display_order": 280,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 13,
+            "name": "Health and Fitness",
+            "slug": "health-and-fitness",
+            "display_order": "5",
+            "secondary_display_order": 5
+          }
+        },
+        {
+          "id": 8645,
+          "label": "Fibre Optics",
+          "label_l1": "ألياف ضوئية",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "fiber-coverage",
+          "display_order": 320,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8646,
+          "label": "Smart Home System",
+          "label_l1": "سمارت هوم",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "smart-home-system",
+          "display_order": 360,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8647,
+          "label": "ATM Facility",
+          "label_l1": "صراف آلي قريب",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "atm-facility",
+          "display_order": 380,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 9,
+            "name": "Nearby Places and Facilities",
+            "slug": "nearby-places-and-facilities",
+            "display_order": "6",
+            "secondary_display_order": 6
+          }
+        },
+        {
+          "id": 8648,
+          "label": "Jacuzzi",
+          "label_l1": "جاكوزي",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "jacuzzi",
+          "display_order": 400,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8649,
+          "label": "Kids Play Area",
+          "label_l1": "منطقة لعب للأطفال",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "kids-play-area",
+          "display_order": 420,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8650,
+          "label": "Lawn or Garden",
+          "label_l1": "حديقة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "lawn-or-garden",
+          "display_order": 440,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8651,
+          "label": "Maid Room",
+          "label_l1": "غرفة خادمة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "maids-room",
+          "display_order": 460,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8652,
+          "label": "Sauna",
+          "label_l1": "ساونا",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "sauna",
+          "display_order": 500,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 13,
+            "name": "Health and Fitness",
+            "slug": "health-and-fitness",
+            "display_order": "5",
+            "secondary_display_order": 5
+          }
+        },
+        {
+          "id": 8653,
+          "label": "Steam Room",
+          "label_l1": "غرفة بخار",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "steam-room",
+          "display_order": 520,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 13,
+            "name": "Health and Fitness",
+            "slug": "health-and-fitness",
+            "display_order": "5",
+            "secondary_display_order": 5
+          }
+        },
+        {
+          "id": 8654,
+          "label": "Swimming Pool",
+          "label_l1": "مسبح",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "swimming-pool",
+          "display_order": 540,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8655,
+          "label": "Hospitals",
+          "label_l1": "مستشفيات قريبة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "nearby-hospitals",
+          "display_order": 580,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 9,
+            "name": "Nearby Places and Facilities",
+            "slug": "nearby-places-and-facilities",
+            "display_order": "6",
+            "secondary_display_order": 6
+          }
+        },
+        {
+          "id": 8656,
+          "label": "Shopping Malls",
+          "label_l1": "مراكز تسوق قريبة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "nearby-shopping-malls",
+          "display_order": 600,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 9,
+            "name": "Nearby Places and Facilities",
+            "slug": "nearby-places-and-facilities",
+            "display_order": "6",
+            "secondary_display_order": 6
+          }
+        },
+        {
+          "id": 8657,
+          "label": "Maintenance Staff",
+          "label_l1": "خدمات الصيانة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "maintenance-staff",
+          "display_order": 620,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        },
+        {
+          "id": 8658,
+          "label": "Security Staff",
+          "label_l1": "أمن وحماية",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "security-staff",
+          "display_order": 640,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8659,
+          "label": "CCTV Security",
+          "label_l1": "نظام كاميرات مراقبة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "cctv-security",
+          "display_order": 660,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8660,
+          "label": "Cafeteria or Canteen",
+          "label_l1": "كافيتيريا",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "cafeteria-or-canteen",
+          "display_order": 680,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8661,
+          "label": "Laundry Facility",
+          "label_l1": "خدمات غسيل",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "laundry-facility",
+          "display_order": 700,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        },
+        {
+          "id": 8662,
+          "label": "Facilities for Disabled",
+          "label_l1": "تسهيلات لذوي الإحتياجات الخاصة",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "facilities-for-disabled",
+          "display_order": 720,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 13,
+            "name": "Health and Fitness",
+            "slug": "health-and-fitness",
+            "display_order": "5",
+            "secondary_display_order": 5
+          }
+        },
+        {
+          "id": 8663,
+          "label": "Parking Spaces",
+          "label_l1": "مواقف سيارات",
+          "value": null,
+          "value_l1": null,
+          "format_type": "number",
+          "slug": "parking-spaces",
+          "display_order": 740,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8664,
+          "label": "24 Hours Concierge",
+          "label_l1": "خدمة الإستقبال",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "24-hours-concierge",
+          "display_order": 800,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8665,
+          "label": "Cleaning Services",
+          "label_l1": "خدمات التنظيف",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "cleaning-services",
+          "display_order": 820,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        },
+        {
+          "id": 8666,
+          "label": "Close to Metro Station",
+          "label_l1": "قريب من المترو",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "close-to-metro-station",
+          "display_order": 860,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 9,
+            "name": "Nearby Places and Facilities",
+            "slug": "nearby-places-and-facilities",
+            "display_order": "6",
+            "secondary_display_order": 6
+          }
+        },
+        {
+          "id": 8667,
+          "label": "Basement parking",
+          "label_l1": "مواقف في القبو",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "basement-parking",
+          "display_order": 880,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8668,
+          "label": "Close to Main Roads",
+          "label_l1": "قريب من الطرق الرئيسية",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "close-to-main-roads",
+          "display_order": 900,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8669,
+          "label": "Private garage",
+          "label_l1": "كراج خاص",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "private-garage",
+          "display_order": 920,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8670,
+          "label": "Mosque",
+          "label_l1": "مسجد قريب",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "nearby-mosque",
+          "display_order": 940,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 9,
+            "name": "Nearby Places and Facilities",
+            "slug": "nearby-places-and-facilities",
+            "display_order": "6",
+            "secondary_display_order": 6
+          }
+        },
+        {
+          "id": 8671,
+          "label": "Valet Service",
+          "label_l1": "خدمة اصطفاف السيارات",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "valet-service",
+          "display_order": 960,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 8,
+            "name": "Building Features",
+            "slug": "building-features",
+            "display_order": "3",
+            "secondary_display_order": 3
+          }
+        },
+        {
+          "id": 8672,
+          "label": "Playdium",
+          "label_l1": "ألعاب وملاهي",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "playdium",
+          "display_order": 980,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 10,
+            "name": "Recreation and Family",
+            "slug": "recreation-and-family",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8673,
+          "label": "Basement",
+          "label_l1": "قبو",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "basement",
+          "display_order": 1000,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8674,
+          "label": "Fireplace Utility",
+          "label_l1": "مشب",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "fireplace-utility",
+          "display_order": 1060,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8675,
+          "label": "Private Entrance",
+          "label_l1": "مدخل خاص",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "private-entrance",
+          "display_order": 1080,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8676,
+          "label": "Electricity",
+          "label_l1": "كهرباء",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "electricity",
+          "display_order": 1100,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8677,
+          "label": "Water Supply",
+          "label_l1": "مياه",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "water-supply",
+          "display_order": 1120,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8678,
+          "label": "Sewerage",
+          "label_l1": "صرف صحي",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "sewerage",
+          "display_order": 1140,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        },
+        {
+          "id": 8679,
+          "label": "Fixed Phone",
+          "label_l1": "هاتف",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "fixed-phone",
+          "display_order": 1160,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 7,
+            "name": "Main Features",
+            "slug": "main-features",
+            "display_order": "1",
+            "secondary_display_order": 1
+          }
+        },
+        {
+          "id": 8680,
+          "label": "Flood Drainage",
+          "label_l1": "تصريف الفيضانات",
+          "value": "Yes,No",
+          "value_l1": "نعم،لا",
+          "format_type": "checkbox",
+          "slug": "flood-drainage",
+          "display_order": 1180,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 14,
+            "name": "Cleaning and Maintenance",
+            "slug": "cleaning-and-maintenance",
+            "display_order": "4",
+            "secondary_display_order": 4
+          }
+        }
+      ],
+      "dynamic_section": {
+        "id": 18,
+        "name": "Price & Features",
+        "slug": "price-features",
+        "display_order": "4",
+        "secondary_display_order": 35
+      }
+    },
+    "is_contact_hidden": {
+      "id": 4222,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "campaign_type": {
+      "id": 4223,
+      "dynamic_field_options": [
+        {
+          "id": 8681,
+          "label": "Organic",
+          "label_l1": "عضوي",
+          "value": "Organic",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "organic",
+          "display_order": 10,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8682,
+          "label": "Promo",
+          "label_l1": "عرض ترويجي",
+          "value": "Promo",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "promo",
+          "display_order": 20,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8683,
+          "label": "REGA Ad License Alert",
+          "label_l1": "تنبيه ترخيص إعلان REGA",
+          "value": "REGA Ad License Alert",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "rega-ad-license-alert",
+          "display_order": 30,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8684,
+          "label": "By Staff",
+          "label_l1": "بواسطة الموظفين",
+          "value": "By Staff",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "by-staff",
+          "display_order": 40,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8685,
+          "label": "Rega Data",
+          "label_l1": "بيانات REGA",
+          "value": "Rega Data",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "rega-data",
+          "display_order": 50,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "additional_details": {
+      "id": 4225,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "title_translation_enabled": {
+      "id": 4226,
+      "dynamic_section": {
+        "display_order": "60"
+      }
+    },
+    "description_translation_enabled": {
+      "id": 4227,
+      "dynamic_section": {
+        "display_order": "60"
+      }
+    },
+    "uuid": {
+      "id": 4228,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    },
+    "otp_attempts": {
+      "id": 4229,
+      "dynamic_section": {
+        "display_order": "1"
+      }
+    }
+  },
+  "additionalFields": [
+    {
+      "id": 4204,
+      "key_name": "rent_frequency",
+      "label": "Rental Frequency",
+      "label_l1": "مدة الإيجار",
+      "data_type": "single-select",
+      "ui_type": "radio",
+      "place_holder": null,
+      "place_holder_l1": null,
+      "regex": null,
+      "lang_regex": null,
+      "lang_l1_regex": null,
+      "trigger_regex": null,
+      "default_value": null,
+      "default_value_l1": null,
+      "is_required": null,
+      "display": false,
+      "display_order": 20,
+      "max_length": null,
+      "max_value": null,
+      "min_length": null,
+      "min_value": null,
+      "multilang_enabled": false,
+      "destination_key": "dynamic_data.dynamic_fields.rent_frequency",
+      "filter_type": null,
+      "slug": null,
+      "unit": null,
+      "is_editable": true,
+      "parent_id": null,
+      "dynamic_field_options": [
+        {
+          "id": 8620,
+          "label": "Daily",
+          "label_l1": "يومي",
+          "value": "Daily",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "daily",
+          "display_order": 1,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8621,
+          "label": "Weekly",
+          "label_l1": "أسبوعي",
+          "value": "Weekly",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "weekly",
+          "display_order": 2,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8622,
+          "label": "Monthly",
+          "label_l1": "شهري",
+          "value": "Monthly",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "monthly",
+          "display_order": 3,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        },
+        {
+          "id": 8623,
+          "label": "Yearly",
+          "label_l1": "سنوي",
+          "value": "Yearly",
+          "value_l1": null,
+          "format_type": null,
+          "slug": "yearly",
+          "display_order": 4,
+          "parent_id": null,
+          "dynamic_section": {
+            "id": 2,
+            "name": "Default",
+            "slug": "default",
+            "display_order": "2",
+            "secondary_display_order": 2
+          }
+        }
+      ],
+      "dynamic_section": {
+        "id": 19,
+        "name": "Price and Specs",
+        "slug": "price-and-specs",
+        "display_order": "40",
+        "secondary_display_order": 40
+      }
+    },
+    {
+      "id": 4224,
+      "key_name": "redirection_link",
+      "label": "Booking Link",
+      "label_l1": "رابط الحجز",
+      "data_type": "string",
+      "ui_type": null,
+      "place_holder": "Enter Booking Link",
+      "place_holder_l1": "ادخل رابط الحجز",
+      "regex": null,
+      "lang_regex": null,
+      "lang_l1_regex": null,
+      "trigger_regex": null,
+      "default_value": null,
+      "default_value_l1": null,
+      "is_required": null,
+      "display": true,
+      "display_order": 1580,
+      "max_length": null,
+      "max_value": null,
+      "min_length": null,
+      "min_value": null,
+      "multilang_enabled": false,
+      "destination_key": "dynamic_data.dynamic_fields.redirection_link",
+      "filter_type": null,
+      "slug": null,
+      "unit": null,
+      "is_editable": true,
+      "parent_id": null,
+      "dynamic_field_options": [],
+      "dynamic_section": {
+        "id": 18,
+        "name": "Price & Features",
+        "slug": "price-features",
+        "display_order": "4",
+        "secondary_display_order": 35
+      }
+    }
+  ]
+}

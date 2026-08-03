@@ -1,0 +1,232 @@
+.filterMain {
+  label {
+    color: @gray600;
+    font-size: 12px;
+  }
+}
+
+@searchIcon: url("data:image/svg+xml,%3Csvg stroke='%239D9D9D' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg' fill='none' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+
+:global {
+  .selectSearch {
+    .ant-select-selection-search {
+      &:before {
+        position: absolute;
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+        padding-top: 4px;
+      }
+    }
+
+    .ant-input-group {
+      &:before {
+        content: @searchIcon;
+        position: absolute;
+        inset-inline-start: 0;
+      }
+    }
+
+    &.ant-select-multiple .ant-select-selection-item {
+      border-radius: 2rem;
+      padding-inline: 10px 5px;
+      margin-inline-end: 10px;
+    }
+
+    .ant-select-selection-overflow-item-suffix {
+      .ant-select-selection-search-input {
+        height: 36px;
+      }
+    }
+
+    .ant-select-tree {
+      .ant-select-tree-treenode {
+        padding: 0.5rem;
+
+        &:hover {
+          background-color: @gray200;
+        }
+      }
+    }
+
+    .ant-tree-select-dropdown {
+      padding-inline: 0;
+    }
+
+    .ant-select-tree-node-content-wrapper {
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    .ant-select-tree-treenode-switcher-open {
+      .ant-select-tree-title {
+        font-weight: 700;
+      }
+    }
+
+    .ant-select-tree-switcher {
+      order: 3;
+      .ant-select-tree-switcher-icon {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.appliedTags {
+  gap: 8px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+
+  :global {
+    .ant-tag {
+      line-height: 32px;
+      font-size: 14px;
+      border-radius: 3rem;
+      padding-inline-start: 16px;
+      padding-inline-end: 16px;
+      margin-inline-end: 0;
+    }
+    .ant-tag-close-icon {
+      svg {
+        font-size: 16px;
+        vertical-align: -3px;
+        margin-inline-start: 5px;
+      }
+    }
+  }
+}
+
+.filterFields {
+  transition: max-height 0.1s;
+  max-height: 0;
+  overflow: hidden;
+
+  &.expanded {
+    max-height: 500px;
+  }
+
+  &.expandedView {
+    overflow: visible;
+  }
+}
+
+:global {
+  .expandableOuter {
+    > div {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    > .ant-collapse-item {
+      > .ant-collapse-content > .ant-collapse-content-box {
+        padding: 0;
+      }
+      > .ant-collapse-header {
+        place-self: center;
+        padding: 0;
+        margin-top: -15px;
+      }
+    }
+  }
+}
+
+@base: 0.16rem;
+
+.lotiOuter {
+  position: relative;
+  top: -10px;
+}
+
+.chevronReverse {
+  transform: scaleY(-1);
+  top: 10px;
+}
+
+.chevron {
+  position: absolute;
+  width: @base * 3.5;
+  height: @base * 0.8;
+  opacity: 0;
+  transform: scale(0.3);
+  animation: move-chevron 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move-chevron 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move-chevron 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  // background: #009f2b;
+  background: currentColor;
+}
+
+.chevron:before {
+  inset-inline-start: 0;
+  transform: skewY(30deg);
+}
+
+.chevron:after {
+  inset-inline-end: 0;
+  width: 50%;
+  transform: skewY(-30deg);
+}
+
+@keyframes move-chevron {
+  25% {
+    opacity: 1;
+  }
+  33.3% {
+    opacity: 1;
+    transform: translateY(@base * 3.8);
+  }
+  66.6% {
+    opacity: 1;
+    transform: translateY(@base * 5.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(@base * 8) scale(0.5);
+  }
+}
+
+.TreeDropdownSelect {
+  :global {
+    .ant-select-dropdown {
+      width: auto !important;
+      min-width: 360px !important;
+      white-space: nowrap;
+    }
+  }
+}
+
+//this button is to be used in only in 1 place so custom styles added
+
+.moreFiltersBtn {
+  --btn-bg-color: @primary-light-4;
+  --btn-content-color: #0091ba;
+  flex-direction: row-reverse;
+  &:hover,
+  &:focus {
+    background-color : @primary-light-3 !important;
+  }
+}
+
+.badgeCount {
+  :global {
+    .ant-badge-count {
+      inset-inline-end: 5px;
+    }
+  }
+}

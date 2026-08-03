@@ -1,0 +1,1 @@
+export { getCommonStaticDynamicFieldsResponse } from './staticDynamicFormFields';

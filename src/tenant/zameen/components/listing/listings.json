@@ -1,0 +1,32 @@
+{
+  "listingStates": {
+    "Active": {
+      "title": "No Active Listings",
+      "subtitle": "Your active listings will appear here"
+    },
+    "Pending": {
+      "title": "No Pending Listings",
+      "subtitle": "Your pending listings will appear here"
+    },
+    "Rejected": {
+      "title": "No Rejected Listings",
+      "subtitle": "Your rejected listings will appear here"
+    },
+    "Expired": {
+      "title": "No Expired Listings",
+      "subtitle": "Your expired listings will appear here"
+    },
+    "Deleted": {
+      "title": "No Deleted Listings",
+      "subtitle": "Your deleted listings will appear here"
+    },
+    "Downgraded": {
+      "title": "No Downgraded Listings",
+      "subtitle": "Your downgraded listings will appear here"
+    },
+    "Inactive": {
+      "title": "No Inactive Listings",
+      "subtitle": "Your inactive listings will appear here"
+    }
+  }
+}

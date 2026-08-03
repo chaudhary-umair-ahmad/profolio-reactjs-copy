@@ -1,0 +1,24 @@
+{
+  "listingStates": {
+    "10": {
+      "title": "No Active Listings",
+      "subtitle": "Your active listings will appear here"
+    },
+    "11": {
+      "title": "No Draft Listings",
+      "subtitle": "Your draft listings will appear here"
+    },
+    "12": {
+      "title": "No Pending Listings",
+      "subtitle": "Your pending listings will appear here"
+    },
+    "13": {
+      "title": "No Removed Listings",
+      "subtitle": "Your removed listings will appear here"
+    },
+    "ad_licenses": {
+      "title": "No Ad License Requests",
+      "subtitle": "Don't have any AD license? you can easily generate one through Bayut."
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+    "3": {
+      "svg": "SvgIcBalcony"
+    },
+    "4": {
+      "svg": "SvgIcBarbeque"
+    },
+    "6": {
+      "svg": "SvgIcWindows"
+    },
+    "7": {
+      "svg": "SvgIcAc"
+    },
+    "8": {
+      "svg": "SvgIcCentralHeating"
+    },
+    "9": {
+      "svg": "SvgIcDayCare"
+    },
+    "10": {
+      "svg": "SvgIcElectricityMeter"
+    },
+    "11": {
+      "svg": "SvgIcWasteDisposal"
+    },
+    "12": {
+      "svg": "SvgIcMedicalCenter"
+    },
+    "13": {
+      "svg": "SvgIcBuildingFloors"
+    },
+    "16": {
+      "svg": "SvgIcElevators"
+    },
+    "17": {
+      "svg": "SvgIcServiceElevators"
+    },
+    "19": {
+      "svg": "SvgIcFreeHold"
+    },
+    "21": {
+      "svg": "SvgIcPets"
+    },
+    "22": {
+      "svg": "SvgIcGym"
+    },
+    "24": {
+      "svg": "SvgIcLaundaryRoom"
+    },
+    "26": {
+      "svg": "SvgIcFiberCoverage"
+    },
+    "29": {
+      "svg": "SvgIcConferenceRoom"
+    },
+    "30": {
+      "svg": "SvgIcSmartHomeSystem"
+    },
+    "31": {
+      "svg": "SvgIcAtm"
+    },
+    "33": {
+      "svg": "SvgIcJacuzzi"
+    },
+    "34": {
+      "svg": "SvgIcPlayArea"
+    },
+    "36": {
+      "svg": "SvgIcGarden"
+    },
+    "37": {
+      "svg": "SvgIcMaid"
+    },
+    "41": {
+      "svg": "SvgIcReception"
+    },
+    "42": {
+      "svg": "SvgIcSauna"
+    },
+    "43": {
+      "svg": "SvgIcSteamRoom"
+    },
+    "45": {
+      "svg": "SvgIcSwimming"
+    },
+    "55": {
+      "svg": "SvgIcSchool"
+    },
+    "56": {
+      "svg": "SvgIcHospitals"
+    },
+    "57": {
+      "svg": "SvgIcShoppingMall"
+    },
+    "61": {
+      "svg": "SvgIcMaintenanceStaff"
+    },
+    "62": {
+      "svg": "SvgIcSecurity"
+    },
+    "63": {
+      "svg": "SvgIcSecurity"
+    },
+    "64": {
+      "svg": "SvgIcCafeteria"
+    },
+    "65": {
+      "svg": "SvgIcLaundaryFacility"
+    },
+    "67": {
+      "svg": "SvgIcDisabled"
+    },
+    "68": {
+      "svg": "SvgIcParkingSpace"
+    },
+    "70": {
+      "svg": "SvgIcStorageArea"
+    },
+    "71": {
+      "svg": "SvgIcOfficeRoom"
+    },
+    "72": {
+      "svg": "SvgIcConcierge"
+    },
+    "73": {
+      "svg": "SvgIcCleaningService"
+    },
+    "75": {
+      "svg": "SvgIcBuildingFloors"
+    },
+    "1002": {
+      "svg": "SvgIcMetroStation"
+    },
+    "1003": {
+      "svg": "SvgIcParking"
+    },
+    "1004": {
+      "svg": "SvgIcCloseToMainRoad"
+    },
+    "1006": {
+      "svg": "SvgIcPrivateGarage"
+    },
+    "1007": {
+      "svg": "SvgIcMosque"
+    },
+    "1008": {
+      "svg": "SvgIcValetService"
+    },
+    "1009": {
+      "svg": "SvgIcPlaydium"
+    },
+    "1013": {
+      "svg": "SvgIcBasement"
+    },
+    "1014": {
+      "svg": "SvgIcGuestRoom"
+    },
+    "1015": {
+      "svg": "SvgIcStaffRoom"
+    },
+    "1016": {
+      "svg": "SvgIcFirePlace"
+    },
+    "1017": {
+      "svg": "SvgIcPrivateEntrance"
+    },
+    "1018": {
+      "svg": "SvgIcElectricity"
+    },
+    "1019": {
+      "svg": "SvgIcWater"
+    },
+    "1020": {
+      "svg": "SvgIcSanitation"
+    },
+    "1021": {
+      "svg": "SvgIcFixedPhone"
+    },
+    "1022": {
+      "svg": "SvgIcFibreOptics"
+    },
+    "1023": {
+      "svg": "SvgIcFloodDrainage"
+    }
+  }
+  

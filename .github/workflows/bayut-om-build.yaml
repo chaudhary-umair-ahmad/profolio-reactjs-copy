@@ -1,0 +1,25 @@
+name: Bayut-OM Build and Push
+
+on:
+  push:
+    branches:
+      - 'main'
+    tags:
+      - bayut-om-dev-*
+      - bayut-om-stage-*
+      - bayut-om-live-*
+      - bayut-om-prelive-*
+      - profolio-all-stage-*
+      - profolio-all-live-*
+
+jobs:
+  bayut-build-and-push:
+    uses: SectorLabs/enigma-workflows/.github/workflows/build-and-push.yaml@master
+    secrets:
+      ECR_URL: ${{ secrets.BAYUT_OM_ECR_URL }}
+      AWS_ROLE_ARN: ${{ secrets.BAYUT_OM_AWS_ROLE_ARN }}
+      AWS_REGION: ${{ secrets.BAYUT_OM_AWS_REGION }}
+      REGISTRY_URL: ${{ secrets.REGISTRY_URL }}
+      NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      ARGOCD_IMAGE_UPDATER_AUTH_HEADER: ${{ secrets.ARGOCD_IMAGE_UPDATER_AUTH_HEADER }}

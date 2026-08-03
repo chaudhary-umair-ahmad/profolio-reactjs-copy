@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "propertyInformation": {
+      "id": 1,
+      "slug": "property-information",
+      "name": "Property Information",
+      "name_l1": "معلومات العقار",
+      "display_order": 1
+    },
+    "propertyLocation": {
+      "id": 2,
+      "slug": "property-location",
+      "name": "Property Location",
+      "name_l1": "موقع العقار",
+      "display_order": 2
+    },
+    "propertyImages": {
+      "id": 3,
+      "slug": "property-images",
+      "name": "Property Images",
+      "name_l1": "صور العقار",
+      "display_order": 3
+    },
+    "priceFeatures": {
+      "id": 4,
+      "slug": "price-features",
+      "name": "Price & Features",
+      "name_l1": "السعر والمميزات",
+      "display_order": 4
+    },
+    "contactInformation": {
+      "id": 5,
+      "slug": "contact-information",
+      "name": "Contact Information",
+      "name_l1": "معلومات التواصل",
+      "display_order": 5
+    }
+  },
+  "options": {
+    "bedrooms": [
+      { "id": -1, "value": "-1", "value_l1": "-1", "label": "Studio", "label_l1": "استوديو", "slug": "studio" },
+      { "id": 1, "value": "1", "value_l1": "1", "label": "1", "label_l1": "1", "slug": "1" },
+      { "id": 2, "value": "2", "value_l1": "2", "label": "2", "label_l1": "2", "slug": "2" },
+      { "id": 3, "value": "3", "value_l1": "3", "label": "3", "label_l1": "3", "slug": "3" },
+      { "id": 4, "value": "4", "value_l1": "4", "label": "4", "label_l1": "4", "slug": "4" },
+      { "id": 5, "value": "5", "value_l1": "5", "label": "5", "label_l1": "5", "slug": "5" },
+      { "id": 6, "value": "6", "value_l1": "6", "label": "6", "label_l1": "6", "slug": "6" },
+      { "id": 7, "value": "7", "value_l1": "7", "label": "7", "label_l1": "7", "slug": "7" },
+      { "id": 8, "value": "8", "value_l1": "8", "label": "8", "label_l1": "8", "slug": "8" },
+      { "id": 9, "value": "9", "value_l1": "9", "label": "9", "label_l1": "9", "slug": "9" },
+      { "id": 10, "value": "10", "value_l1": "10", "label": "9+", "label_l1": "+9", "slug": "10" }
+    ],
+    "bathrooms": [
+      { "id": 1, "value": "1", "value_l1": "1", "label": "1", "label_l1": "1", "slug": "1" },
+      { "id": 2, "value": "2", "value_l1": "2", "label": "2", "label_l1": "2", "slug": "2" },
+      { "id": 3, "value": "3", "value_l1": "3", "label": "3", "label_l1": "3", "slug": "3" },
+      { "id": 4, "value": "4", "value_l1": "4", "label": "4", "label_l1": "4", "slug": "4" },
+      { "id": 5, "value": "5", "value_l1": "5", "label": "5", "label_l1": "5", "slug": "5" },
+      { "id": 6, "value": "6", "value_l1": "6", "label": "6", "label_l1": "6", "slug": "6" },
+      { "id": 7, "value": "7", "value_l1": "7", "label": "7", "label_l1": "7", "slug": "7" },
+      { "id": 8, "value": "8", "value_l1": "8", "label": "8", "label_l1": "8", "slug": "8" },
+      { "id": 9, "value": "9", "value_l1": "9", "label": "9", "label_l1": "9", "slug": "9" },
+      { "id": 10, "value": "10", "value_l1": "10", "label": "9+", "label_l1": "+9", "slug": "10" }
+    ],
+    "rentFrequency": [
+      { "id": 4, "value": "4", "value_l1": "4", "label": "Yearly", "label_l1": "سنوي", "slug": "yearly" },
+      { "id": 3, "value": "3", "value_l1": "3", "label": "Monthly", "label_l1": "شهري", "slug": "monthly" },
+      { "id": 2, "value": "2", "value_l1": "2", "label": "Weekly", "label_l1": "أسبوعي", "slug": "weekly" },
+      { "id": 1, "value": "1", "value_l1": "1", "label": "Daily", "label_l1": "يومي", "slug": "daily" }
+    ],
+    "areaUnit": [
+      { "id": 1, "value": "2", "value_l1": "2", "label": "Square Meters", "label_l1": "متر مربع", "slug": "sqm" }
+    ]
+  },
+  "sharedFields": [
+    {
+      "id": 201,
+      "key_name": "beds",
+      "data_type": "single-select",
+      "ui_type": "radio",
+      "label": "Number of Bedrooms",
+      "label_l1": "عدد غرف النوم",
+      "is_required": true,
+      "sectionKey": "propertyInformation",
+      "display_order": 10,
+      "optionsKey": "bedrooms"
+    },
+    {
+      "id": 202,
+      "key_name": "baths",
+      "data_type": "single-select",
+      "ui_type": "radio",
+      "label": "Number of Bathrooms",
+      "label_l1": "عدد الحمامات",
+      "is_required": true,
+      "sectionKey": "propertyInformation",
+      "display_order": 20,
+      "optionsKey": "bathrooms"
+    },
+    {
+      "id": 203,
+      "key_name": "is_furnished",
+      "data_type": "boolean",
+      "ui_type": "radio",
+      "label": "Furnished",
+      "label_l1": "مفروشة",
+      "is_required": true,
+      "sectionKey": "propertyInformation",
+      "display_order": 30
+    },
+    {
+      "id": 204,
+      "key_name": "area_unit_value",
+      "data_type": "integer",
+      "ui_type": "input",
+      "label": "Area Size",
+      "label_l1": "مساحة",
+      "is_required": true,
+      "regex": "^\\d+$",
+      "destination_key": "area_unit_value",
+      "sectionKey": "propertyInformation",
+      "display_order": 40
+    },
+    {
+      "id": 205,
+      "key_name": "images",
+      "data_type": "image-select-bank",
+      "ui_type": "image-select-bank",
+      "label": "Images",
+      "label_l1": "صور",
+      "is_required": true,
+      "destination_key": "listing_images_attributes",
+      "sectionKey": "propertyImages",
+      "display_order": 10
+    },
+    {
+      "id": 206,
+      "key_name": "videos",
+      "data_type": "multi-select",
+      "ui_type": "video-select-bank",
+      "label": "Add Videos of your Property",
+      "label_l1": "أضف فيديوهات للعقار",
+      "is_required": false,
+      "regex": "^(?:https?:\\/\\/)?(?:www\\.)?(?:youtube\\.com\\/(?:watch\\?(?=.*v=([A-Za-z0-9_-]+))(?:\\S+)?|embed\\/([A-Za-z0-9_-]+)|v\\/([A-Za-z0-9_-]+)|shorts\\/([A-Za-z0-9_-]+))|youtu\\.be\\/([A-Za-z0-9_-]+))(?:\\?.*)?$",
+      "validation_messages": {
+        "invalid_format": "Please enter a valid url"
+      },
+      "destination_key": "listing_videos_attributes",
+      "sectionKey": "propertyImages",
+      "display_order": 20
+    },
+    {
+      "id": 207,
+      "key_name": "features",
+      "data_type": "multi-select",
+      "ui_type": "add-amenities",
+      "label": "Features and Amenities",
+      "label_l1": "المميزات والمرافق",
+      "is_required": false,
+      "destination_key": "dynamic_data.dynamic_fields.features",
+      "sectionKey": "priceFeatures",
+      "display_order": 100
+    },
+    {
+      "id": 208,
+      "key_name": "title",
+      "data_type": "string",
+      "ui_type": "generate-content",
+      "label": "Title",
+      "label_l1": "عنوان",
+      "is_required": true,
+      "regex": "^[^\\u0600-\\u06FF]+$",
+      "destination_key": "title",
+      "sectionKey": "priceFeatures",
+      "display_order": 110,
+      "min_length": 5
+    },
+    {
+      "id": 209,
+      "key_name": "title_l1",
+      "data_type": "string",
+      "ui_type": "generate-content",
+      "label": "Title",
+      "label_l1": "عنوان",
+      "is_required": true,
+      "regex": "^[^A-Za-z]+$",
+      "destination_key": "title_l1",
+      "sectionKey": "priceFeatures",
+      "display_order": 120,
+      "min_length": 5
+    },
+    {
+      "id": 210,
+      "key_name": "description",
+      "data_type": "text",
+      "ui_type": "generate-content",
+      "label": "Description",
+      "label_l1": "وصف",
+      "is_required": true,
+      "regex": "^[^\\u0600-\\u06FF]+$",
+      "destination_key": "description",
+      "sectionKey": "priceFeatures",
+      "display_order": 130,
+      "min_length": 20
+    },
+    {
+      "id": 211,
+      "key_name": "description_l1",
+      "data_type": "text",
+      "ui_type": "generate-content",
+      "label": "Description",
+      "label_l1": "وصف",
+      "is_required": true,
+      "regex": "^[^A-Za-z]+$",
+      "destination_key": "description_l1",
+      "sectionKey": "priceFeatures",
+      "display_order": 140,
+      "min_length": 20
+    },
+    {
+      "id": 212,
+      "key_name": "user_id",
+      "data_type": "integer",
+      "ui_type": "select",
+      "label": "Posting As",
+      "label_l1": "النشر باسم",
+      "is_required": false,
+      "sectionKey": "contactInformation",
+      "display_order": 10
+    },
+    {
+      "id": 213,
+      "key_name": "mobile",
+      "data_type": "phone",
+      "ui_type": "phone-input-verification",
+      "label": "Phone Number",
+      "label_l1": "رقم الهاتف",
+      "is_required": true,
+      "sectionKey": "contactInformation",
+      "display_order": 20
+    },
+    {
+      "id": 214,
+      "key_name": "area_unit",
+      "data_type": "single-select",
+      "ui_type": "select",
+      "label": "Area Unit",
+      "label_l1": "وحدة المساحة",
+      "is_required": true,
+      "display": false,
+      "destination_key": "dynamic_data.dynamic_fields.area_unit",
+      "sectionKey": "propertyInformation",
+      "optionsKey": "areaUnit"
+    }
+  ],
+  "saleFields": [
+    {
+      "id": 220,
+      "key_name": "price",
+      "data_type": "integer",
+      "ui_type": "input",
+      "label": "Price",
+      "label_l1": "السعر",
+      "is_required": true,
+      "destination_key": "price",
+      "sectionKey": "priceFeatures",
+      "display_order": 10,
+      "min_value": 1
+    }
+  ],
+  "rentFields": [
+    {
+      "id": 230,
+      "key_name": "rent_frequency",
+      "data_type": "single-select",
+      "ui_type": "radio",
+      "label": "Rental Frequency",
+      "label_l1": "فترة الإيجار",
+      "is_required": true,
+      "destination_key": "rent_frequency_id",
+      "sectionKey": "priceFeatures",
+      "display_order": 10,
+      "optionsKey": "rentFrequency"
+    },
+    {
+      "id": 231,
+      "key_name": "rental_price",
+      "data_type": "integer",
+      "ui_type": "input",
+      "label": "Rent Price",
+      "label_l1": "سعر الإيجار",
+      "is_required": true,
+      "destination_key": "rental_price",
+      "sectionKey": "priceFeatures",
+      "display_order": 20,
+      "min_value": 1
+    }
+  ]
+}

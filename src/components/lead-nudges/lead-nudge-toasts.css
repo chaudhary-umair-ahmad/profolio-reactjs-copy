@@ -1,0 +1,114 @@
+/* TruLeads Bayut Match nudge (antd renders in a portal — set stack so Arabic matches Profolio) */
+.lead-nudge-truleads-toast.ant-notification-notice {
+  --lead-nudge-icon-reserve: 15px;
+  /* --lead-nudge-tile-bg: #d5ede8; */
+  --lead-nudge-tile-glyph: #0d9488;
+  --lead-nudge-badge-bg: #1a8f7a;
+
+  font-family: Lato, 'Droid Arabic Kufi', sans-serif;
+
+  background: #e6f4ef;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 105, 92, 0.12);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  /* logical padding: room for close button on inline-end (LTR + RTL) */
+  padding-block: 16px 12px;
+  padding-inline: 16px 40px;
+  min-width: 300px;
+  max-width: 400px;
+  position: relative;
+}
+
+.lead-nudge-truleads-toast .ant-notification-notice-with-icon {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.lead-nudge-truleads-toast .ant-notification-notice-icon {
+  position: absolute;
+  top: 2px;
+  inset-inline-start: 0;
+  margin: 0;
+  min-width: 44px;
+}
+
+.lead-nudge-truleads-toast .ant-notification-notice-message {
+  margin-bottom: 8px;
+  margin-inline-start: 0;
+  padding-inline-start: var(--lead-nudge-icon-reserve, 60px);
+  color: #262626;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.lead-nudge-truleads-toast .ant-notification-notice-description {
+  margin: 0;
+  padding-inline-start: var(--lead-nudge-icon-reserve, 60px);
+}
+
+.lead-nudge-truleads-toast__text {
+  margin: 0;
+  color: #262626;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.lead-nudge-truleads-toast__icon-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.lead-nudge-truleads-toast__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: var(--lead-nudge-tile-bg, #d5ede8);
+  color: var(--lead-nudge-tile-glyph, #0d9488);
+}
+
+.lead-nudge-truleads-toast__icon .anticon,
+.lead-nudge-truleads-toast__icon svg {
+  color: var(--lead-nudge-tile-glyph, #0d9488);
+  fill: currentColor;
+}
+
+.lead-nudge-truleads-toast__badge.ant-badge .ant-badge-count,
+.lead-nudge-truleads-toast__badge .ant-badge-count {
+  min-width: 18px;
+  height: 18px;
+  min-height: 18px;
+  line-height: 18px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff !important;
+  background: var(--lead-nudge-badge-bg, #1a8f7a) !important;
+  box-shadow: none;
+  border: none;
+}
+
+.lead-nudge-truleads-toast__badge {
+  position: absolute;
+  top: -6px;
+  /* outer corner of icon tile; text uses padding-inline-start so it stays clear in en + ar */
+  inset-inline-end: -2px;
+}
+
+.lead-nudge-truleads-toast__cta.lead-nudge-truleads-toast__cta {
+  padding: 0;
+  height: auto;
+  font-weight: 600;
+}
+
+html[dir='rtl'] .lead-nudge-truleads-toast.ant-notification-notice {
+  font-family: 'Droid Arabic Kufi', Lato, sans-serif;
+}

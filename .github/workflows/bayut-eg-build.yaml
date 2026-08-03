@@ -1,0 +1,23 @@
+name: Bayut EG Build and Push
+
+on:
+  push:
+    branches:
+      - "main"
+    tags:
+      - bayut-eg-stage-*
+      - bayut-eg-live-*
+      - profolio-all-stage-*
+      - profolio-all-live-*
+
+jobs:
+  bayut-build-and-push:
+    uses: SectorLabs/enigma-workflows/.github/workflows/build-and-push.yaml@master
+    secrets:
+      ECR_URL: ${{ secrets.BAYUT_EG_ECR_URL }}
+      AWS_ROLE_ARN: ${{ secrets.BAYUT_EG_AWS_ROLE_ARN }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      REGISTRY_URL: ${{ secrets.REGISTRY_URL }}
+      NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      ARGOCD_IMAGE_UPDATER_AUTH_HEADER: ${{ secrets.ARGOCD_IMAGE_UPDATER_AUTH_HEADER }}

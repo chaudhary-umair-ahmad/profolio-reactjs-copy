@@ -1,0 +1,66 @@
+{
+  "applinks": {
+    "apps": [],
+    "substitutionVariables": {
+      "language": [
+        "ar/",
+        "en/",
+        ""
+      ]
+    },
+    "details": [
+      {
+        "appID": "8GM4XF8C4D.com.bayut.bayutksa",
+        "components": [
+          {
+            "/": "/$(language)account",
+            "exclude": true
+          },
+          {
+            "/": "/$(language)account/callback",
+            "exclude": true
+          },
+          {
+            "/": "/mobile-app"
+          },
+          {
+            "/": "/in/*"
+          },
+          {
+            "/": "/$(language)dashboard"
+          },
+          {
+            "/": "/$(language)listings"
+          },
+          {
+            "/": "/$(language)listings/*"
+          },
+          {
+            "/": "/$(language)packages"
+          },
+          {
+            "/": "/$(language)post-listing"
+          },
+          {
+            "/": "/$(language)lms/truleads"
+          },
+          {
+            "/": "/$(language)lms/lms-dashboard"
+          },
+          {
+            "/": "/$(language)agent-performance"
+          },
+          {
+            "/": "/$(language)user-settings/user-profile"
+          },
+          {
+            "/": "/$(language)user-settings/profile_completion"
+          },
+          {
+            "/": "/$(language)"
+          }
+        ]
+      }
+    ]
+  }
+}

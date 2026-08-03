@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bayut.bayutqa",
+      "sha256_cert_fingerprints": [
+        "0D:55:03:44:4A:63:B3:3E:8B:95:E3:93:E9:BB:D3:63:B3:E3:08:88:C6:78:1F:6D:55:B9:9D:44:82:F1:F8:92"
+      ]
+    }
+  }
+]

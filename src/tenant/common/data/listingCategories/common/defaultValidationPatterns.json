@@ -1,0 +1,5 @@
+{
+  "bilingualLatinArabic": "^[\\p{Latin}\\p{Arabic}\\s]*$",
+  "latinOnly": "^[\\p{Latin}\\s]*$",
+  "arabicOnly": "^[\\p{Arabic}\\s]*$"
+}

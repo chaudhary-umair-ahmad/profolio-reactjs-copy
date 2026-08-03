@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bayut.bayutjo",
+      "sha256_cert_fingerprints": [
+        "7F:57:70:9E:62:80:EC:CE:E4:DB:A1:EB:C9:11:A5:0F:ED:93:44:78:CB:43:47:5A:EE:2E:81:24:6D:F8:48:B1"
+      ]
+    }
+  }
+]

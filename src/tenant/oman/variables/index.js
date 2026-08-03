@@ -1,0 +1,33 @@
+export default {
+  // bayut: {
+  //   classifiedBaseURL: 'https://stage.bayut.om',
+  //   kCBaseURL: 'https://auth.stage.bayut.om',
+  //   cookieDomain: 'bayut.om',
+  //   kcClientId: 'frontend',
+  //   kcRealm: 'bayut-om',
+  //   broadCastChannelName: 'internal-channel',
+  // },
+  // dubizzle: {
+  //   // classifiedBaseURL: 'https://stage.dubizzle.om',
+  //   // kCBaseURL: 'https://auth.stage.dubizzle.om',
+  //   // cookieDomain: 'dubizzle.com.om',
+  //   // kcClientId: 'frontend',
+  //   // kcRealm: 'dubizzle-om',
+  //   // broadCastChannelName: 'internal-channel',
+  //   classifiedBaseURL: 'https://stage.bayut.om',
+  //   kCBaseURL: 'https://auth.stage.bayut.om',
+  //   cookieDomain: 'bayut.om',
+  //   kcClientId: 'frontend',
+  //   kcRealm: 'bayut-om',
+  //   broadCastChannelName: 'internal-channel',
+  //   colors: {
+  //     primaryColor: '#e00000',
+  //     primaryHover: '#e00000',
+  //     primaryLight: '#FCF7F7',
+  //     primaryLight1: '#F08080',
+  //     primaryLight2: '#FF999A',
+  //     primaryLight3: '#FFEBEB',
+  //     primaryLight4: '#FFF4F4',
+  //   },
+  // },
+};
