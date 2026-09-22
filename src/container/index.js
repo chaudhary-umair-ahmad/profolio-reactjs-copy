@@ -29,6 +29,7 @@ const PaymentProcess = lazy(() => import('./pages/payment/payment-process'));
 const Maintenance = lazy(() => import('./pages/Maintenance'));
 const PostAd = lazy(() => import('./pages/post-ad'));
 const DesignCapture = lazy(() => import('./pages/design-capture/DesignCapture'));
+const DesignCaptureFlows = lazy(() => import('./pages/design-capture/DesignCaptureFlows'));
 
 export const PublicPages = {
   PaymentProcess,
@@ -36,6 +37,7 @@ export const PublicPages = {
   PostAd,
   EventCheckoutPage,
   DesignCapture,
+  DesignCaptureFlows,
 };
 
 export default {

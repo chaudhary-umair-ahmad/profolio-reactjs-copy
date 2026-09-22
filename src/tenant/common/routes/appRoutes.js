@@ -248,7 +248,10 @@ const publicRoutes = () => [
   /* A page that exists to be measured: every component in every state, with
      the real theme and the overlays rendered in place. Never in production. */
   ...(process.env.REACT_APP_ENVIRONMENT !== 'production'
-    ? [{ path: '/design-capture', Component: 'DesignCapture' }]
+    ? [
+        { path: '/design-capture', Component: 'DesignCapture' },
+        { path: '/design-capture/flows', Component: 'DesignCaptureFlows' },
+      ]
     : []),
   { path: '/content/process-payment', Component: 'PaymentProcess' },
   { path: '/maintenance', Component: 'Maintenance' },
