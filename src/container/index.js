@@ -28,12 +28,14 @@ const AdLicense = lazy(() => import('./pages/ad-license'));
 const PaymentProcess = lazy(() => import('./pages/payment/payment-process'));
 const Maintenance = lazy(() => import('./pages/Maintenance'));
 const PostAd = lazy(() => import('./pages/post-ad'));
+const DesignCapture = lazy(() => import('./pages/design-capture/DesignCapture'));
 
 export const PublicPages = {
   PaymentProcess,
   Maintenance,
   PostAd,
   EventCheckoutPage,
+  DesignCapture,
 };
 
 export default {
